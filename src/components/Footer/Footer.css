@@ -1,0 +1,7 @@
+#dark-toggle:checked + label .dot {
+    transform: translateX(23.5px); /* Перемещение кружка вправо */
+}
+
+#dark-toggle:checked + label div:first-child {
+    background-color: #627AFF;
+}

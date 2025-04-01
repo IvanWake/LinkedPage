@@ -1,6 +1,10 @@
+import UserPage from "./pages/page/UserPage";
+
 const App = () => {
     return (
-        <div className="text-center text-6xl font-inter">App</div>
+        <>
+            <UserPage />
+        </>
     );
 }
 
